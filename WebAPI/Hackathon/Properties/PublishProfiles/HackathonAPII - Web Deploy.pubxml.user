@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEJbPVZPkzU6EjCkIWSrimQAAAAACAAAAAAAQZgAAAAEAACAAAAA6zztk2tPZRoBN2PauaSt96Kq1w1QaBH5wPhvIMhEwXAAAAAAOgAAAAAIAACAAAADX/ulVZtsziiku1u7ZCv/r+1lOKhy5OcEQmBN1GdF4cYAAAAAQ3LOqCDmcBJpRyUy2CasGnNMwd3JYmoR8Id4umJJfmcY85iSSGItx6lACZ0Oi3hLPtaX9vEOdXdJCCGUSbRRBAcWmDCf64YjZ1qdOEr4JV+CJeKSQ5jF7g7dUmBRLOY3xymeApFtxc5X0Hm4fOrAsm/j8fLhO+ebVjjcmJYkDR0AAAADZ43AZWxBBa4VF1w7MO9fsqdK+qGSALNfb7WCp5K2y4i7Pr1F1krTs+Ss5d0Wq2nRRHuhsscGBBpsQLQJ0z4ci</EncryptedPassword>
+    <History>True|2021-11-12T15:26:32.5112478Z;True|2021-11-06T21:42:58.4060183+05:30;True|2021-11-06T20:25:02.6383943+05:30;True|2021-11-06T00:37:32.5044859+05:30;True|2021-11-05T22:31:24.3100719+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Hackathon.Model.AppDbContext">
+      <Value>Data Source=tcp:my-hackathondbserver.database.windows.net,1433%3bInitial Catalog=My_Hackathon_db%3bUser Id=aman%40my-hackathondbserver%3bPassword=Venom123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

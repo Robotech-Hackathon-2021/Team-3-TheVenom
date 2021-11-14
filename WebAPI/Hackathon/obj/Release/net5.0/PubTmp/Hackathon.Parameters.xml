@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HackathonAPII" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\TheVenom\\Hackathon\\Hackathon\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Hackathon.Model.AppDbContext" description="" value="Data Source=tcp:my-hackathondbserver.database.windows.net,1433;Initial Catalog=My_Hackathon_db;User Id=aman@my-hackathondbserver;Password=Venom123" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\TheVenom\\Hackathon\\Hackathon\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\Hackathon\.Model\.AppDbContext\.sql$" />
+  </parameter>
+</parameters>
